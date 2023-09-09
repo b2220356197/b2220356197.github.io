@@ -19,7 +19,7 @@ header {
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -46,32 +46,38 @@ nav a {
     font-weight: bold;
     font-size: 16px;
     transition: background-color 0.3s, transform 0.3s;
+    background-color: #DF6C4F;
+    border: 2px solid #DF6C4F;
 }
 
 nav a:hover {
-    background-color: #ffaa80;
-    transform: scale(1.1);
+    background-color: #fff;
+    color: #DF6C4F;
+    transform: scale(1.05);
 }
 
 main {
     background-color: #ffffff;
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 h1 {
     font-size: 36px;
+    color: #333;
 }
 
 h2 {
     font-size: 24px;
+    color: #333;
 }
 
 p {
     font-size: 18px;
     margin-bottom: 10px;
+    color: #555;
 }
 
 /* Custom Fonts */
