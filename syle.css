@@ -6,20 +6,22 @@ body, h1, h2, p {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #49c5b6;
+    background-color: #f0f0f0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
 header {
-    background-color: #DF6C4F;
+    background-color: #49c5b6;
     color: #fff;
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
 }
 
 nav ul {
@@ -39,45 +41,38 @@ nav ul li:last-child {
 
 nav a {
     text-decoration: none;
-    display: inline-block;
     padding: 10px 20px;
     border-radius: 25px;
     color: #fff;
     font-weight: bold;
     font-size: 16px;
     transition: background-color 0.3s, transform 0.3s;
-    background-color: #DF6C4F;
-    border: 2px solid #DF6C4F;
 }
 
 nav a:hover {
-    background-color: #fff;
-    color: #DF6C4F;
-    transform: scale(1.05);
+    background-color: #df6c4f;
+    transform: scale(1.1);
 }
 
 main {
-    background-color: #ffffff;
+    background-color: #fff;
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     text-align: center;
 }
 
 h1 {
     font-size: 36px;
-    color: #333;
 }
 
 h2 {
     font-size: 24px;
-    color: #333;
 }
 
 p {
     font-size: 18px;
     margin-bottom: 10px;
-    color: #555;
 }
 
 /* Custom Fonts */
