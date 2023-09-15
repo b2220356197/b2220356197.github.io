@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -17,7 +18,8 @@ body {
 #name {
     color: #FFDB82;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 48px; /* Increased font size */
+    font-weight: bold; /* Added font weight */
     transition: color 0.5s;
 }
 
@@ -27,24 +29,34 @@ body {
 
 .social-icons {
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon {
     display: inline-block;
     margin: 0 20px;
+}
+
+.icon img {
+    width: 100px; /* Resized the logos */
+    height: 100px;
     transition: filter 0.5s;
 }
 
-#instagram:hover {
-    filter: grayscale(100%) sepia(100%) hue-rotate(300deg);
+#instagram:hover img {
+    filter: hue-rotate(300deg) brightness(1.5); /* Changed hover effect */
 }
 
-#whatsapp:hover {
-    filter: grayscale(100%) sepia(100%) hue-rotate(150deg);
+#whatsapp:hover img {
+    filter: hue-rotate(150deg) brightness(1.5); /* Changed hover effect */
 }
 
 #quote {
     font-family: "Nova Mono", monospace;
     color: black;
     margin-top: 20px;
+    font-size: 24px; /* Increased font size */
+    font-weight: bold; /* Added font weight */
 }
