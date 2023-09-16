@@ -5,26 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Website</title>
     <style>
-        body {
-            background-color: #000000;
-            color: #233458;
-            font-family: 'Playfair Display', serif;
-            text-align: center;
-        }
-        
+    body {
+        background-color: #000000;
+        color: #233458;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+    }
+
+    .container {
+        margin-top: 70px;
+        max-width: 800px; /* Limit width to 800px on PC */
+        padding: 0 20px; /* Add some padding for better readability */
+        margin: 0 auto; /* Center the container */
+    }
+
+    .text {
+        font-size: 64px;
+        margin-bottom: 32px;
+    }
+
+    .link {
+        font-size: 18px;
+        color: #233458; /* Match the default text color */
+    }
+
+    @media (max-width: 500px) {
         .container {
-            margin-top: 70px;
+            max-width: 500px; /* Limit width to 500px on mobile */
         }
-        
-        .text {
-            font-size: 64px;
-            margin-bottom: 32px;
-        }
-        
-        .link {
-            font-size: 18px;
-        }
-    </style>
+    }
+</style>
+
 </head>
 <body>
     <div class="container">
